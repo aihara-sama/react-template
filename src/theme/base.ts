@@ -19,20 +19,6 @@ const components: ThemeOptions["components"] = {
         display: "none",
       },
 
-      // Styling nprogress bar
-      "#nprogress": {
-        pointerEvents: "none",
-      },
-      "#nprogress .bar": {
-        backgroundColor: theme.palette.primary.main,
-        height: "3px",
-        left: "0px",
-        position: "fixed",
-        top: "0px",
-        width: "100%",
-        zIndex: 2000,
-      },
-
       // Styling scrollbar
       // "*::-webkit-scrollbar": {
       //   width: 4,
